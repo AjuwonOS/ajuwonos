@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ajuwon Oreoluwa — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="script.js"></script>
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="cursor-project" id="cursorProject">View <span>→</span></div>
+
+<div id="scroll-wrap">
+
+<nav>
+  <a href="/" class="logo">AJUWON</a>
+  <div class="nav-links">
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <!-- <a href="/blog">Blog</a> --> <!-- Add in a future update -->
+  </div>
+  <a href="#contact" class="nav-cta">Hire me</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-left">
+    <h1 class="hero-title">
+      <span class="line line-1"><span>FULL</span></span>
+      <span class="line line-2"><span>STACK</span></span>
+      <span class="line line-3"><span>DEV</span></span>
+    </h1>
+    <p class="hero-desc">
+      <strong>Ajuwon Oreoluwa.</strong> I build fast, expressive web products
+      from backend architecture to pixel-obsessed interfaces. Currently crafting
+      experiences at the intersection of engineering and design.
+    </p>
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-image-wrap" id="heroImage">
+      <img
+        src="./headshot.jpeg"
+        alt="Ajuwon Oreoluwa"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    </div>
+  </div>
+</header>
+
+<section class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item">Next JS <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Javascript <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Node <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Typescript <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Gitlab <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Vercel <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Next JS <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Javascript <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Node <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Typescript <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Gitlab <span class="marquee-diamond"></span></span>
+    <span class="marquee-item">Vercel <span class="marquee-diamond"></span></span>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="projects-label">Selected Works</div>
+  <h2 class="projects-title">
+    A LOOK AT
+    <span class="accent">MY WORK.</span>
+  </h2>
+
+  <a href="https://renenergysuites.com" class="project" data-project-cursor>
+    <div class="project-bg"></div>
+    <div class="project-inner">
+      <div class="project-num">01</div>
+      <div>
+        <div class="project-name">RenEnergy Suites</div>
+        <div class="project-tags">
+          <span>Payment Integration</span><span>Hospitality</span><span>Booking</span>
+        </div>
+      </div>
+      <div class="project-desc">
+        Airbnb-style apartment booking platform. Guests browse listings, view
+        each apartment's details, pay online, and get access to the facility.
+      </div>
+      <div class="project-arrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"></line>
+          <polyline points="7 7 17 7 17 17"></polyline>
+        </svg>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://uims.com.ng" class="project" data-project-cursor>
+    <div class="project-bg"></div>
+    <div class="project-inner">
+      <div class="project-num">02</div>
+      <div>
+        <div class="project-name">University of Ibadan Model of Style</div>
+        <div class="project-tags">
+          <span>Payment Integration</span><span>Restful API</span><span>Full stack</span>
+        </div>
+      </div>
+      <div class="project-desc">
+        The University of Ibadan Model of Style (UIMS) is a web-based platform that provides paid access to a customized Mendeley CSL citation style. 
+        It integrates Paystack payments, automated email delivery, 
+        API key authentication, and usage limits to manage secure access to the citation service.
+      </div>
+      <div class="project-arrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"></line>
+          <polyline points="7 7 17 7 17 17"></polyline>
+        </svg>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://github.com/AjuwonOS/BAES-ELECTION-APP" class="project" data-project-cursor>
+    <div class="project-bg"></div>
+    <div class="project-inner">
+      <div class="project-num">03</div>
+      <div>
+        <div class="project-name">Voting Platform</div>
+        <div class="project-tags">
+          <span>Restful API</span><span>Realtime</span><span>Voting</span>
+        </div>
+      </div>
+      <div class="project-desc">
+        Developed a real-time voting platform for the BAES 2026 departmental executive elections,
+         enabling over 350 students to vote securely and view live election results. 
+         Built with React, Express.js, SQLite, Socket.IO, and JWT authentication, 
+         the application supports voter eligibility verification, secure vote submission, and real-time tally updates.
+      </div>
+      <div class="project-arrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"></line>
+          <polyline points="7 7 17 7 17 17"></polyline>
+        </svg>
+      </div>
+    </div>
+  </a>
+
+  <a href="#" class="project" data-project-cursor>
+    <div class="project-bg"></div>
+    <div class="project-inner">
+      <div class="project-num">04</div>
+      <div>
+        <div class="project-name">BayLounge</div>
+        <div class="project-tags">
+          <span>Hospitality</span><span>Nightlife</span><span>Vue JS</span>
+        </div>
+      </div>
+      <div class="project-desc">
+        Website for a Lagos waterfront lounge. Guests can see the menu and the
+        events, reserve a table, charter a boat, and submit to perform on the
+        weekend stage.
+      </div>
+      <div class="project-arrow">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"></line>
+          <polyline points="7 7 17 7 17 17"></polyline>
+        </svg>
+      </div>
+    </div>
+  </a>
+</section>
+
+<section class="about" id="about">
+  <div class="about-left">
+    <h2 class="about-title">
+      <span>YOU ENVISION IT.</span>
+      <span class="outline">I ENGINEER IT.</span>
+      <span>I BUILD IT.</span>
+      <span class="italic-accent">Start to finish.</span>
+    </h2>
+    <p class="karaoke" id="karaoke">
+      I'm a full stack developer who sticks around after the feature ships.
+      Six years of building real products taught me that the best code is the
+      code you don't have to babysit. I care about how things hold up when
+      they're not on your laptop. So I plan it, build it, and get it live —
+      and I don't disappear when something breaks at 2am.
+    </p>
+  </div>
+
+  <div class="about-image">
+    <img
+      src="./headshot.jpeg"
+      alt="Ajuwon Oreoluwa"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </div>
+
+  <div class="two-sides">
+    <div class="panel">
+      <div class="panel-label">SIDE A</div>
+      <div class="panel-title">Where you see it.</div>
+      <p class="panel-copy">
+        Where users actually meet the product. I care about load times,
+        interaction details, and interfaces that feel obvious the first time
+        you use them — not after three tries.
+      </p>
+      <div class="panel-tags">
+        <span>[TYPESCRIPT]</span><span>[REACT]</span><span>[NEXT.JS]</span>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-label">SIDE B</div>
+      <div class="panel-title">Where it lives.</div>
+      <p class="panel-copy">
+        The APIs, the database, the infrastructure behind it all. I build
+        systems that hold up under real traffic, and I write the kind of
+        code that the next developer won't curse me for.
+      </p>
+      <div class="panel-tags">
+        <span>[NODE]</span><span>[POSTGRES]</span><span>[DOCKER]</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div><div class="stat-num">10+</div><div class="stat-label">Projects<br>Delivered</div></div>
+    <div><div class="stat-num">3+</div><div class="stat-label">Years of<br> Professional <br> Experience</div></div>
+    <div><div class="stat-num">B.Eng</div><div class="stat-label">Mechatronics <br> Engineering</div></div>
+    <!-- <div><div class="stat-num">Ibadan</div><div class="stat-label">Based in<br>Nigeria</div></div> -->
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-label">— Get in touch</div>
+  <h2 class="contact-title">
+    LET'S BUILD SOMETHING<br>TOGETHER.
+  </h2>
+  <a href="mailto:ajuwonos1@gmail.com" class="contact-btn">
+    Hello@Ajuwon.Dev →
+  </a>
+  <div class="contact-links">
+    <a href="https://github.com/AjuwonOS">GitHub</a>
+    <a href="https://wa.me/8166124505">WhatsApp</a>
+    <a href="https://x.com/oreajuwon">X/Twitter</a>
+    <a href="https://drive.google.com/file/d/1hyAdKiFVfqKBQnSvVSI9zkN7J6K3Sro_/view">Read.cv</a>
+  </div>
+</section>
+
+<footer>
+  Built & Engineered by AJ Oreoluwa © 2026
+</footer>
+
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
